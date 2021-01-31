@@ -3,7 +3,7 @@ Dual clock buffer for modules connected by valid and ready handshake.
 
 ![dual_clock_buffer](https://user-images.githubusercontent.com/14823909/105039643-23ff4380-5aa4-11eb-928f-e426cde9e4bb.png)
 
-|Name|Direction|Clock doamin|Description|
+|Name|Direction|Clock domain|Description|
 |--|--|--|--|
 |reset|input|i_clk, o_clk|Reset signal (Active low)|
 |i_clk|input|i_clk|Intake clock|
