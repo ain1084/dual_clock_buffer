@@ -5,7 +5,7 @@ Dual clock buffer for modules connected by valid and ready handshake.
 
 |Name|Direction|Clock domain|Description|
 |--|--|--|--|
-|reset|input|i_clk, o_clk|Reset signal (Active low)|
+|reset|input|i_clk, o_clk|Reset signal (Active high)|
 |i_clk|input|i_clk|Intake clock|
 |i_valid|input|i_clk|Intake valid|
 |i_ready|output|i_clk|Intake ready|
